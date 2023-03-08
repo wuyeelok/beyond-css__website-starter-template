@@ -1,5 +1,5 @@
-$clr: rgb(169, 183, 197);
-
-body {
-  background-color: $clr;
-}
+@use "./base";
+@use "./components";
+@use "./layout";
+@use "./utilities";
+@use "./vendor";
