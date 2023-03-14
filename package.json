@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --port 11478",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 17945"
   },
   "devDependencies": {
     "sass": "^1.58.3",
