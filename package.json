@@ -10,9 +10,9 @@
   },
   "browserslist": "> 1%, last 2 versions, Firefox ESR, not dead",
   "devDependencies": {
-    "postcss-preset-env": "^9.0.0",
-    "sass": "^1.58.3",
-    "vite": "^4.1.0",
+    "postcss-preset-env": "^9.1.0",
+    "sass": "^1.64.1",
+    "vite": "^4.4.7",
     "vite-plugin-purgecss": "^0.2.12"
   }
 }
