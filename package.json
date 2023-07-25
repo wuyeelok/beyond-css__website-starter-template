@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview --port 17945"
   },
-  "browserslist": "> 1%, last 1 versions, Firefox ESR, not dead",
+  "browserslist": "> 1%, last 2 versions, Firefox ESR, not dead",
   "devDependencies": {
     "postcss-preset-env": "^9.0.0",
     "sass": "^1.58.3",
