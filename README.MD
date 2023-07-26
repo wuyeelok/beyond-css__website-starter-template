@@ -15,3 +15,15 @@ Install [nodejs](https://nodejs.org/) on your computer.
 3. Run `npm run dev`
 4. Type `o` for opening in your default browser
 5. Type `q` or _Ctrl C_ when done
+
+### For Production
+
+1. Open _terminal_
+2. In terminal, `cd ....` to _root directory_
+3. Run `npm run build`
+4. Run `npm run preview`
+5. Type `o` for opening in your default browser
+6. Type `q` or _Ctrl C_ when done
+7. _(if you haven't)_ Run `git add .`
+8. _(if you haven't)_ Run `git commit -m "....."`
+9. _(if you haven't)_ Run `git push origin master`
