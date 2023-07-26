@@ -16,15 +16,21 @@ Install [nodejs](https://nodejs.org/) on your computer.
 4. Type `o` for opening the website in your default browser
 5. Type `q` or _Ctrl C_ when done checking
 
-### For Production Deployment in GitHub Pages
+### For Production Deployment In GitHub Pages
 
-#### One Time Setup in GitHub
+#### One Time Setup In GitHub
 
 1. Login to your [GitHub](https://github.com/) account
 2. Go to your repository in GitHub
 3. Click on tab **Settings**
 4. Under _Code and automation_, click on tab **Pages**
 5. Under _Build and deployment_, Source dropdown: select **GitHub Actions**
+
+#### One Time Setup For Vite Base
+
+1. Go to _root directory_
+2. Open `vite.config.js`
+3. Set the correct base inside **export default{....}**: if you are deploying to `https://<GITHUB USERNAME>.github.io/`, you can omit base as it defaults to '/'. If you are deploying to `https://<GITHUB USERNAME>.github.io/<REPO>/`, for example your repository is at `https://github.com/<USERNAME>/<REPO>`, then set base to `"/<REPO>/"`
 
 #### How To Deploy
 
